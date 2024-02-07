@@ -1,4 +1,5 @@
 /*
+Difficulty: Easy
 Problem Name: Sorted insert for circular linked list
 Problem Link: https://www.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1
 TC: O(n)
