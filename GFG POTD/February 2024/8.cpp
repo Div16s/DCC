@@ -2,12 +2,25 @@
 Difficulty: Easy
 Problem Name: Check if all leaves are at same level
 Problem Link: https://www.geeksforgeeks.org/problems/leaf-at-same-level/1
+Concepts Used: Tree Traversal
 TC: O(n) n is number of nodes
 SC: O(h) height of the tree
 */
 
 #include<bits/stdc++.h>
 using namespace std;
+
+struct Node
+{
+    int data;
+    struct Node* left;
+    struct Node* right;
+    
+    Node(int x){
+        data = x;
+        left = right = NULL;
+    }
+};
 
 class Solution{
   public:
