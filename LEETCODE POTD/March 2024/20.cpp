@@ -5,6 +5,12 @@ Problem Link: https://leetcode.com/problems/merge-in-between-linked-lists/descri
 Concepts Used: Two pointers, Linked List Traversal, Linked List Connection
 TC:  O(b+length of list2) traversing list1 till the b-th node and traversing list2 till the end
 SC: O(1) using no extra space
+
+SIMILAR QUESTIONS: LeetCode 21. Merge Two Sorted Lists, LeetCode 23. Merge k Sorted Lists,
+                   LeetCode 86. Partition List, LeetCode 328. Odd Even Linked List,
+                   LeetCode 2. Add Two Numbers, LeetCode 445. Add Two Numbers II,
+                   LeetCode 725. Split Linked List in Parts, LeetCode 203. Remove Linked List Elements,
+                   LeetCode 82. Remove Duplicates from Sorted List II, LeetCode 83. Remove Duplicates from Sorted List                
 */
 
 #include<bits/stdc++.h>
